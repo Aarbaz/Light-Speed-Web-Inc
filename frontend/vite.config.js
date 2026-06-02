@@ -7,11 +7,11 @@ export default defineConfig({
     port: 3000,
     proxy: {
       '/contacts': {
-        target: 'http://localhost/Arbaz_Task/backend',
+        target: 'https://backend-light-speed-web-inc.freedev.app/',
         changeOrigin: true
       },
       '/store': {
-        target: 'http://localhost/Arbaz_Task/backend',
+        target: 'https://backend-light-speed-web-inc.freedev.app/',
         changeOrigin: true
       }
     }
