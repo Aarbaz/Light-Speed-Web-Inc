@@ -7,11 +7,11 @@ export default defineConfig({
     port: 3000,
     proxy: {
       '/contacts': {
-        target: 'https://backend-light-speed-web-inc.freedev.app/',
+        target: 'https://light-speed-web-task.buildcodechain.com/',
         changeOrigin: true
       },
       '/store': {
-        target: 'https://backend-light-speed-web-inc.freedev.app/',
+        target: 'https://light-speed-web-task.buildcodechain.com/',
         changeOrigin: true
       }
     }
