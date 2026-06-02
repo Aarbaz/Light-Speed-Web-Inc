@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const API_BASE = 'https://backend-light-speed-web-inc.freedev.app'
+const API_BASE = 'https://light-speed-web-task.buildcodechain.com'
 
 const api = axios.create({
   baseURL: API_BASE,
