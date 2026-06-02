@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const API_BASE = 'http://localhost/Arbaz_Task/backend'
+const API_BASE = 'https://backend-light-speed-web-inc.freedev.app'
 
 const api = axios.create({
   baseURL: API_BASE,
